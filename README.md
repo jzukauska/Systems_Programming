@@ -10,7 +10,7 @@ Write a program in a language of your choice which will take a mount point as an
 
 ### Dependencies
 * Python
-  * Operating system that allows python to be installed an exitcuted
+  * Operating system that allows python to be installed and executed
   * Python command reachable from terminal / command line
   * Python minimum versions 2.7 or 3.2 compatible
   * See https://www.python.org/downloads/ for install instructions
@@ -28,8 +28,12 @@ Write a program in a language of your choice which will take a mount point as an
 
 * Git Method
   * open terminal or command line   
-  * git clone https://github.com/jzukauska/Systems_Programming.git
-  * cd Systems_Programming
+  * ```
+    git clone https://github.com/jzukauska/Systems_Programming.git
+    ```
+  * ```
+    cd Systems_Programming
+    ```
 
 
 ### Executing program
@@ -64,10 +68,14 @@ optional arguments:
 
 ```
 ## Test
-* Test can be run with `python test_getdiskusage.py`
+* Test can be run with
+  ```
+  python test_getdiskusage.py
+  ```
 * It requires that the test directory shipped with this repository be in the same directory you extracted getdiskusage.py to in order to test known relative directory schemas.
  
 ![Test proof](https://raw.githubusercontent.com/jzukauska/Systems_Programming/master/Test%20Results%20getdiskusage.png)
-## Authors
+
+## Author
 Jacob Zukauska 
 
